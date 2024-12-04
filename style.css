@@ -130,7 +130,7 @@ ________________________
 }
 
 .btn:hover {
-    background: var(--primary-700);
+    background: var(--primary-100);
 }
 
 /*
@@ -158,10 +158,14 @@ ________________________
 .item {
     height: 150px;
     width: 150px;
+
 }
 
 .item1{
     background-color: rgb(255, 190, 225);
+    position: sticky;
+    top: 50px;
+    left:50px;
 }
 
 .item2{
@@ -191,6 +195,14 @@ ________________________
     font-size: 25px;
 }
 
+.font__1em{
+    font-size:1em;
+}
+.font__1rem{
+    font-size: 1rem;
+}
+
+
 
 /*
 ________________________
@@ -215,6 +227,9 @@ ________________________
     background-color: var(--primary-100);
 }
 /* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px){
+    background-color:var(--primary-600)
+}
 
 
 
